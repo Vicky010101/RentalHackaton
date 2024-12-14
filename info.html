@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rental Store Policies</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 20px;
+            background: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+        }
+
+        h1,
+        h2 {
+            color: #333;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        ul li {
+            background: #f9f9f9;
+            margin: 10px 0;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        ul li:hover {
+            background: #f1f1f1;
+        }
+
+        .section {
+            margin-bottom: 30px;
+        }
+
+        button {
+            background: #007bff;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        button:hover {
+            background: #0056b3;
+        }
+
+        .hidden {
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Rental Store Policies</h1>
+
+        <!-- Rules and Regulations Section -->
+        <div class="section" id="rules">
+            <h2>Rules and Regulations</h2>
+            <ul>
+                <li>Sellers must ensure outfits are cleaned and ready for use before renting.</li>
+                <li>Cancellations must be made at least 2 days before the scheduled rental start date.</li>
+                <li>Orders must be placed and confirmed in advance as per the defined timeline to ensure availability.
+                </li>
+                <li>Adherence to KYC (Know Your Customer) norms by collecting valid government-issued IDs (e.g., Aadhaar
+                    or PAN card).</li>
+                <li>The original price of the outfit must exceed ₹1,500 to qualify for listing on the platform</li>
+                <li>All transactions will include applicable taxes as per local government regulations.</li>
+                <li>The business complies with consumer protection laws to ensure fair practices.</li>
+            </ul>
+        </div>
+
+        <!-- Guidelines and Policies Section -->
+        <div class="section" id="guidelines">
+            <h2>Guidelines and Policies</h2>
+            <ul>
+                <li>All customer information will be kept confidential and used only for processing and delivering
+                    orders.</li>
+                <li>Customers are advised to handle the rented items with care and store them in clean, dry
+                    environments.</li>
+                <li>Customers should notify the business immediately if they encounter any issues with the delivered
+                    product.</li>
+                <li>Inspect items upon delivery and report any damages or discrepancies within 24 hours.</li>
+                <li>Customers should not clean or alter the rented outfits. Professional cleaning is included in the
+                    rental fee.</li>
+                <li>The security deposit will be refunded within 7 working days after the item is returned in acceptable
+                    condition.</li>
+                <li>Damage assessment will be conducted by the business, and charges will be deducted accordingly.</li>
+                <li>Late return fees will be calculated per day and communicated clearly at the time of rental.</li>
+                <li>Customers are encouraged to select the appropriate size carefully; the business holds no
+                    responsibility for fit issues unless size was incorrectly listed.</li>
+                <li>All customer information will be kept confidential and used only for processing and delivering
+                    orders.</li>
+            </ul>
+        </div>
+
+        <!-- Terms and Conditions Section -->
+        <div class="section" id="terms">
+            <h2>Terms and Conditions</h2>
+            <ul>
+                <li>An invoice copy will be attached with every order for transparency.</li>
+                <li>The maximum rental period is 5 days.</li>
+                <li>Orders must be placed at least 3 days prior to the desired rental date.</li>
+                <li>Orders will be delivered 1 day before the rental start date.</li>
+                <li>Both the seller and receiver must provide valid authentication documents (e.g., Aadhaar/PAN card and
+                    permanent address proof).</li>
+                <li>A security deposit equivalent to 30% of the item's original price will be collected and refunded
+                    upon the item's safe return.</li>
+                <li>If damage occurs, the repair/replacement cost will be deducted from the security deposit.</li>
+                <li>Late returns will incur additional fees as per the delay duration.</li>
+            </ul>
+        </div>
+    </div>
+
+    <script>
+        // Example JavaScript for further interactivity
+        document.querySelectorAll('h2').forEach((header) => {
+            header.addEventListener('click', () => {
+                const ul = header.nextElementSibling;
+                ul.classList.toggle('hidden');
+            });
+        });
+    </script>
+</body>
+
+</html>
